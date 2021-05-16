@@ -159,7 +159,7 @@ namespace Miniblog.Core.Controllers
             this.ViewData[Constants.ViewOption] = this.settings.Value.ListView;
 
             this.ViewData[Constants.TotalPostCount] = await posts.CountAsync().ConfigureAwait(true);
-            this.ViewData[Constants.Title] = this.manifest.Name;
+            this.ViewData[Constants.Title] = this.settings.Value.Owner;
             this.ViewData[Constants.Description] = this.manifest.Description;
             this.ViewData[Constants.prev] = $"/{page + 1}/";
             this.ViewData[Constants.next] = $"/{(page <= 1 ? null : $"{page - 1}/")}";

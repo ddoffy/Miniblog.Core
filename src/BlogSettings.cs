@@ -1,3 +1,5 @@
+using System.Security.Principal;
+
 namespace Miniblog.Core
 {
     public class BlogSettings
@@ -11,5 +13,6 @@ namespace Miniblog.Core
         public string Owner { get; set; } = "The Owner";
 
         public int PostsPerPage { get; set; } = 4;
+        public string DisplayName { get; set; }
     }
 }

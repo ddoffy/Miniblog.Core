@@ -136,7 +136,7 @@
     <value>Miniblog.Core</value>
   </data>
   <data name="NewPost" xml:space="preserve">
-    <value>New post</value>
+   <value>New post</value>
   </data>
   <data name="Offline" xml:space="preserve">
     <value>Offline</value>
