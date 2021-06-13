@@ -1,7 +1,7 @@
 {
-  "name": "Miniblog.Core",
-  "short_name": "Miniblog.Core",
-  "description": "A short description of the blog.",
+  "name": "D. Doffy blogs",
+  "short_name": "doffyblogs",
+  "description": "This is such a nice thing.",
   "icons": [
     {
       "src": "/img/icon192x192.png",
